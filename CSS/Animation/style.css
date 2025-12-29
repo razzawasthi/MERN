@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  border: 20px solid rgb(105, 78, 78);
+  height: 550px;
+
+  background-image: url("https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+}
+.animation {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZq7Hvs4vqO2006_avH4wH2Cx9n0R0qU6LA&s");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 1px;
+  animation-timing-function: linear;
+  /* animation-duration:  ; */
+  /* animation-delay:  ; */
+  /* animation-iteration-count:  ; */
+  /* animation-fill-mode:  ; */
+  /* animation-direction:  ; */
+  /* animation-delay: 2s; */
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  /* animation-fill-mode: both;
+  animation-fill-mode: backwards;
+  animation-fill-mode: forwards; */
+  /* animation-direction: normal; */
+  /* animation-direction: reverse; */
+  /* animation-direction: alternate; */
+  /* animation-direction: alternate-reverse; */
+}
+@keyframes move {
+  /* 0%-50%100% */
+  /* 0s-2.5s-5s */
+  0% {
+    transform: translateX(-10px) rotateZ(0deg);
+  }
+
+  100% {
+    transform: translateX(1000px) rotateZ(360deg);
+  }
+}
