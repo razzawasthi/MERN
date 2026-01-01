@@ -113,15 +113,55 @@
 
 
 //find
-let arr=[2,4,5,6,7,55,33,23]
+// let arr=[2,4,5,6,7,55,33,23]
 // const i=arr.find((item)=>{
 //   return item==6
 // })
 // console.log(i);
 
 //includess
-console.log(arr.includes(1));
-console.log(arr.includes(2));
-console.log(arr.includes(33));
-console.log(arr.includes(4));
+// console.log(arr.includes(1));
+// console.log(arr.includes(2));
+// console.log(arr.includes(33));
+// console.log(arr.includes(4));
 
+//Array destructuring
+// let arr=[1,2,3];
+// const [a,b,c]=arr
+// console.log(a,b,c);
+
+//object destructuring
+
+const user={
+  name:'ram',
+  age:20
+}
+const{name,age}=user
+console.log(name,age);
+
+//rest and spread op(...)
+
+//spread
+let arr=[1,2,3]
+let arr2=[...arr,100,200,200]
+console.log(arr2);
+
+const user1={
+  name:'ram',
+  age:20
+}
+const user3={
+  ...user,phn:9800000
+}
+console.log(user3);
+
+//rest
+
+const add=(...x)=>{
+  console.log(
+    x.reduce((acc,item)=>{
+      return acc+item;
+    },0)
+  );
+}
+add(100,200,300,400,500)
