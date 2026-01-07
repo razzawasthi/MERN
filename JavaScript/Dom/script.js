@@ -47,11 +47,6 @@
 // emp.appendChild(h1)
 // emp.appendChild(p)
 
-
-
-
-
 //
-
 
 
