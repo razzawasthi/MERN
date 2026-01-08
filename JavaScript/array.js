@@ -1,7 +1,7 @@
 //Array
-//let arr=[1,2,3,4,5,6,7]
-//0-6(index)
-//7(length)
+// let arr=[1,2,3,4,5,6,7]
+// // 0-6(index)
+// // 7(length)
 // console.log(arr.length-1);
 // console.log(arr[0]);
 // console.log(arr[1]);
@@ -17,7 +17,7 @@
 //   console.log(sum);
 
 
-  //wap a code with will print only even number from given array
+//   wap a code with will print only even number from given array
 //   let arr=[1,2,3,4,5,6,7]
 //   for(let i=0;i<arr.length;i++){
 //     if(arr[i]%2==0)
@@ -53,8 +53,8 @@
 //  console.log(arr);
  
   // let arr=[1,2,3,4,5]
-  //slice
-  //console.log(arr.slice(1,4));
+  // // slice
+  // console.log(arr.slice(1,4));
 
 // let arr=[1,2,3,4,5]
 // //Splice
@@ -132,36 +132,36 @@
 
 //object destructuring
 
-const user={
-  name:'ram',
-  age:20
-}
-const{name,age}=user
-console.log(name,age);
+// const user={
+//   name:'ram',
+//   age:20
+// }
+// const{name,age}=user
+// console.log(name,age);
 
-//rest and spread op(...)
+// //rest and spread op(...)
 
-//spread
-let arr=[1,2,3]
-let arr2=[...arr,100,200,200]
-console.log(arr2);
+// //spread
+// let arr=[1,2,3]
+// let arr2=[...arr,100,200,200]
+// console.log(arr2);
 
-const user1={
-  name:'ram',
-  age:20
-}
-const user3={
-  ...user,phn:9800000
-}
-console.log(user3);
+// const user1={
+//   name:'ram',
+//   age:20
+// }
+// const user3={
+//   ...user,phn:9800000
+// }
+// console.log(user3);
 
-//rest
+// //rest
 
-const add=(...x)=>{
-  console.log(
-    x.reduce((acc,item)=>{
-      return acc+item;
-    },0)
-  );
-}
-add(100,200,300,400,500)
+// const add=(...x)=>{
+//   console.log(
+//     x.reduce((acc,item)=>{
+//       return acc+item;
+//     },0)
+//   );
+// }
+// add(100,200,300,400,500)

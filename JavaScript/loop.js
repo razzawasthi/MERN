@@ -6,30 +6,30 @@
 // // //for
 // // //while
 // // //do-while
-// // console.log("Start");
-// // for(i=0;i<5;i++){
-// //     console.log(i+".Hello");
-// //     // console.log(i);
-// // }
-// // console.log("End");
-// // for(i=1;i<21;i++){
-// //     console.log(i);
-// // }
+// console.log("Start");
+// for(i=0;i<5;i++){
+//     console.log(i+".Hello");
+//     console.log(i);
+// }
+// console.log("End");
+// for(i=1;i<21;i++){
+//     console.log(i);
+// }
 // // for(i=20;i>0;i--){
 // //     console.log(i);
 // // }
-// // let x=10
-// // if(x%2==0){
-// //     console.log("even");
-// // }
-// // else{
-// //     console.log("Odd");
-// // }
-// // for(i=1;i<=20;i++){
-// //     if(i%2==0){
-// //         console.log("even number:"+i);
-// //     }
-// // }
+// let x=10
+// if(x%2==0){
+//     console.log("even");
+// }
+// else{
+//     console.log("Odd");
+// }
+// for(i=1;i<=20;i++){
+//     if(i%2==0){
+//         console.log("even number:"+i);
+//     }
+//}
 // //wap which will count total even number from 1 to 20
 // let count=0;
 // for(let i=1;i<=20;i++){
@@ -66,10 +66,10 @@
 //     i++;
 // }
 // do-while loop
-let i=0
-do{
-    console.log(i);
-    i++
-}
-while(i<=5)
+// let i=0
+// do{
+//     console.log(i);
+//     i++
+// }
+// while(i<=5)
 

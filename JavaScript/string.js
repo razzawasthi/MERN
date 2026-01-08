@@ -1,4 +1,4 @@
-//string
+// string
 // let fullName="Sipalaya info tech"
 // console.log(fullName.length);
 // console.log(fullName[0]);
@@ -17,7 +17,7 @@
 // console.log(fullName+" "+lastName);
 // console.log(fullName.concat(" "+lastName));
 
-// let fullName=' Dilli raj '
+// let fullName='Dilli raj '
 // console.log(fullName.toLowerCase());
 // console.log(fullName.toUpperCase());
 // console.log(fullName.startsWith("D"));
@@ -33,11 +33,11 @@
 // console.log(fullName.slice(6,9));
 
 // let fullName='Sipalay info tech'
-// // console.log(fullName.split());
+// console.log(fullName.split());
 // // console.log(fullName.split(''));
-// // const charArr=fullName.split(' ')
-// // console.log(charArr[0]);
-// // console.log(charArr[1]);
+// const charArr=fullName.split(' ')
+// console.log(charArr[0]);
+// console.log(charArr[1]);
 // console.log(fullName.split(" ")[0]);
 // console.log(fullName.split(" ")[1]);
 // console.log(fullName.split(" ")[2]);

@@ -41,10 +41,10 @@
 // //isAdmin=false
 // //console.log(typeof isAdmin)
 
-// //-->c.Undefined
-// //var num=null //empty
-// //console.log(num);
-// //console.log(typeof num)
+// -->c.Undefined
+// var num=null //empty
+// console.log(num);
+// console.log(typeof num)
 
 // //--->d.Null
 //  //var num;//empty
@@ -158,30 +158,30 @@
 // // console.log(2**3)
 
 
-// // let x=10
-// // // console.log(x++)
-// // // console.log(x)
-// // // console.log(x--);
-// // // console.log(x);
-// // //console.log(++x);
-// // console.log(--x);
+// let x=10
+// console.log(x++)
+// console.log(x)
+// console.log(x--);
+// console.log(x);
+// console.log(++x);
+// console.log(--x);
 
 
 // // //Assignment Operator
 // // //=,+=,-=,/=,*=,%=,**=
-// // let x=10
-// // x+=5
-// // console.log(x);
-// // x-=5
-// // console.log(x);
-// // x/=5
-// // console.log(x);
-// // x*=5
-// // console.log(x);
-// // x**=5
-// // console.log(x);
-// // x%=5
-// // console.log(x);
+// let x=10
+// x+=5
+// console.log(x);
+// x-=5
+// console.log(x);
+// x/=5
+// console.log(x);
+// x*=5
+// console.log(x);
+// x**=5
+// console.log(x);
+// x%=5
+// console.log(x);
 
 // //Comperasion Operator(true /false)
 // // ==,===,>,<,>=,<=,!=,!==
@@ -217,17 +217,17 @@
 
 // //type Casting
 
-// // console.log(true+1);
-// // console.log(false+true+1);
-// // console.log(false+"hi"+1+true);
-// // console.log(false+1+true+"hi");
+// console.log(true+1);
+// console.log(false+true+1);
+// console.log(false+"hi"+1+true);
+// console.log(false+1+true+"hi");
 
 // // //String to Number
-// //  let num="10"
-// //  console.log(typeof num);
-// //  num=Number(num)
-// //  //num=parseInt(num)
-// //  console.log(typeof num);
+//  let num="10"
+//  console.log(typeof num);
+//  num=Number(num)
+//  //num=parseInt(num)
+//  console.log(typeof num);
 
 // //  let num=98888
 // //  console.log(typeof num);
